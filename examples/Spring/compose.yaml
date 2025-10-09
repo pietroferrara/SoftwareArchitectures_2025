@@ -1,0 +1,21 @@
+services:
+  web:
+    build: .
+    restart: always
+    ports:
+      - "8888:8888"
+    depends_on:
+      - students_db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://students_db:3306/studentsapp?createDatabaseIfNotExist=true
+  students_db:
+    volumes:
+      - students-db:/var/lib/mysql
+    image: "mysql:5.7"
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret_password
+volumes:
+  students-db:

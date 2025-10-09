@@ -1,0 +1,7 @@
+{
+    "name": "Jekyll",
+    "image": "mcr.microsoft.com/devcontainers/jekyll:2-bookworm",
+    "forwardPorts": [4000],
+    "postCreateCommand": "bundle install",
+    "remoteUser": "root"
+}

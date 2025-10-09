@@ -1,0 +1,40 @@
+services:
+  backend:
+      build:
+        context: ./node-js
+      ports:
+        - "3000:3000"
+      depends_on:
+        - students
+      command: node index.js
+      container_name: nodejs-app
+  frontend:
+    build:
+      context: ./react-app
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    container_name: react-app
+  students:
+    build:
+      context: "./Spring"
+    restart: always
+    ports:
+      - "8888:8888"
+    depends_on:
+      - students_db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://students_db:3306/studentsapp?createDatabaseIfNotExist=true
+    container_name: spring-app
+  students_db:
+    volumes:
+      - students-db:/var/lib/mysql
+    image: "mysql:5.7"
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret_password
+volumes:
+  students-db:
