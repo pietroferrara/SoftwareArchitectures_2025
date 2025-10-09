@@ -12,7 +12,7 @@ title: Home
                 {% assign visible_items = visible_items | push: item %}
             {% endunless %}
         {% endfor %}
-        
+        {% assign visible_items = visible_items | sort: 'order' %}
         {% if visible_items.size > 0 %}
             <li class="">
                 <a class="content-link" href="{{ site.baseurl }}{{ visible_items.first.url }}">{{ group.name }}</a>
