@@ -1,7 +1,6 @@
 ---
 title: 2. The Spring Framework
 category: 03. Java Spring (Part I)
-exclude: true
 order: 2
 ---
 <h2>Contents</h2>
