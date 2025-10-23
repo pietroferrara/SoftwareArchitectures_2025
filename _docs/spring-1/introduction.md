@@ -42,7 +42,7 @@ If you have installed the Ultimate version of IntelliJ IDEA, in the "New Project
 ![Spring intro]({{ site.baseurl }}/images/spring_intro_1.png)
 ![Spring intro]({{ site.baseurl }}/images/spring_intro_2.png)
 ### Using Spring initializr
-<a target="_blank" rel="noopener noreferrer" href="start.spring.io">Here</a>, you can find a nice online tool that helps you create a Spring Project. You must fill the form with all the appropriate information, add the previously mentioned dependencies (Spring Boot, Spring Web), and click the "Generate" button. This action will download a .zip file containing your empty Gradle project with Spring dependencies. After unzipping the .zip, you can open the project with your desired IDE and start working on it.  
+<a target="_blank" rel="noopener noreferrer" href="https://start.spring.io">Here</a>, you can find a nice online tool that helps you create a Spring Project. You must fill the form with all the appropriate information, add the previously mentioned dependencies (Spring Boot, Spring Web), and click the "Generate" button. This action will download a .zip file containing your empty Gradle project with Spring dependencies. After unzipping the .zip, you can open the project with your desired IDE and start working on it.  
 ![Spring intro]({{ site.baseurl }}/images/spring_intro_3.png)
 ### By Hand
 You can also initialize a Spring Web application by configuring plugins and dependencies in your build.gradle:
