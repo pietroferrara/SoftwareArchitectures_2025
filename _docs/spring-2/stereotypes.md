@@ -1,7 +1,7 @@
 ---
 title: 1. Beans and Stereotypes
 category: 04. Java Spring (Part II)
-exclude: true
+exclude: false
 order: 1
 ---
 <h2>Contents</h2>

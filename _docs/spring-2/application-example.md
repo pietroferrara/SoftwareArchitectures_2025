@@ -1,7 +1,7 @@
 ---
 title: 2. Example of a Spring Application
 category: 04. Java Spring (Part II)
-exclude: true
+exclude: false
 order: 2
 ---
 <h2>Contents</h2>

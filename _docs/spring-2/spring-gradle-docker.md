@@ -1,7 +1,7 @@
 ---
 title: 3. Spring + Gradle + Docker
 category: 04. Java Spring (Part II)
-exclude: true
+exclude: false
 order: 3
 ---
 <h2>Contents</h2>
