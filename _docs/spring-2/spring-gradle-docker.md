@@ -10,7 +10,7 @@ order: 3
 Before proceeding, we want to connect all the dots that seem so far and see how we can deploy a Spring application as a Docker component.
 
 ## The Dockerfile
-Let's follow what the Spring Boot <a target="_blank" rel="noopener noreferrer" href="https://spring.io/guides/topicals/spring-boot-docker/">documentation</a> says. The idea is to copy and execute the .jar file produced by Gradle inside a Docker container.  
+Let's follow what the Spring Boot <a target="_blank" rel="noopener noreferrer" href="https://spring.io/guides/gs/spring-boot-docker">documentation</a> says. The idea is to copy and execute the .jar file produced by Gradle inside a Docker container.  
 Firstly, we need to build the application:
 {% highlight bash %}
 ./gradlew build
