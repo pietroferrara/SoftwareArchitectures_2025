@@ -1,7 +1,6 @@
 ---
 title: 2. HTTP REST
 category: 05. HTTP
-exclude: true
 order: 2
 ---
 <h2>Contents</h2>

@@ -1,7 +1,6 @@
 ---
 title: 1. Introduction
 category: 05. HTTP
-exclude: true
 order: 1
 ---
 ![HTTP logo]({{ site.baseurl }}/images/http_logo.png)
