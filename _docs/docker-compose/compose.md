@@ -2,7 +2,7 @@
 title: 1. Docker Compose
 category: 06. Docker Compose
 order: 1
-exclude: true
+exclude: false
 ---
 ![Compose logo]({{ site.baseurl }}/images/compose_logo.webp)
 <h2>Contents</h2>
