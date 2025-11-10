@@ -1,6 +1,6 @@
 ---
 title: 1. JPA (Hibernate)
-category: 07. JPA (Hibernate)
+category: 08. JPA (Hibernate)
 exclude: true
 order: 1
 ---

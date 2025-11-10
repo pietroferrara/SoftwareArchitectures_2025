@@ -1,7 +1,7 @@
 ---
 title: 2. Example
-category: 08. Camel
-exclude: true
+category: 06. Camel
+exclude: false
 order: 2
 ---
 <h2>Contents</h2>
